@@ -7,6 +7,35 @@ export const  list = [
     {
      id: 2,
      nome: "teste",
-     img:"/img/bolo.jpg"
-   }
+     img:"/img/bolo-pote.jpg"
+   }, {
+    id: 2,
+    nome: "teste",
+    img:"/img/bolo-pote.jpg"
+  },
+  {
+    id: 2,
+    nome: "teste",
+    img:"/img/bolo-pote.jpg"
+  },
+  {
+    id: 2,
+    nome: "teste",
+    img:"/img/bolo-pote.jpg"
+  },
+  {
+    id: 2,
+    nome: "teste",
+    img:"/img/bolo-pote.jpg"
+  },
+  {
+    id: 2,
+    nome: "teste",
+    img:"/img/bolo-pote.jpg"
+  },
+  {
+    id: 2,
+    nome: "teste",
+    img:"/img/bolo-pote.jpg"
+  }
   ]
