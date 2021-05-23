@@ -9,32 +9,32 @@ export const  list = [
      nome: "teste",
      img:"/img/bolo-pote.jpg"
    }, {
-    id: 2,
+    id: 3,
     nome: "teste",
     img:"/img/bolo-pote.jpg"
   },
   {
-    id: 2,
+    id: 4,
     nome: "teste",
     img:"/img/bolo-pote.jpg"
   },
   {
-    id: 2,
+    id: 5,
     nome: "teste",
     img:"/img/bolo-pote.jpg"
   },
   {
-    id: 2,
+    id: 6,
     nome: "teste",
     img:"/img/bolo-pote.jpg"
   },
   {
-    id: 2,
+    id: 7,
     nome: "teste",
     img:"/img/bolo-pote.jpg"
   },
   {
-    id: 2,
+    id: 8,
     nome: "teste",
     img:"/img/bolo-pote.jpg"
   }
