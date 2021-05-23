@@ -35,7 +35,7 @@ export default function Home({list}) {
   )
 }
 export async function getServerSideProps(){
-  const res = await fetch("http://localhost:3000/api/detalhe/cake") 
+  const res = await fetch("https://vercel.com/cleriston1202/cardapio/api/detalhe/cake") 
   const dados = await res.json()
 
 
