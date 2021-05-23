@@ -31,7 +31,7 @@ export default function Detalhe({info}) {
 }
 
 export async function getServerSideProps(context){
-  const res = await fetch(`https://cardapio-oi685puow-cleriston1202.vercel.app/api/detalhe/${context.params.id}`) 
+  const res = await fetch(`/api/detalhe/${context.params.id}`) 
   const dados = await res.json()
 
 
