@@ -23,7 +23,7 @@ export default function Home() {
             <div className={styles.cursopreco}>
                 <span className={styles.precode}>R$80,00</span>
                 <span className={styles.precopor}>R$50,00</span>
-                <a href={`/detalhe/${item.id}`} >Read more</a>
+                <a href={`detalhe/${item.id}`} >Read more</a>
             </div>
         </div>
         ))}
