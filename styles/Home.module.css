@@ -1,3 +1,7 @@
+.container{
+  margin-left: 30px;
+}
+
 .curso {
   /* float: left; */
   display: inline-block;
@@ -9,6 +13,7 @@
   width: 285px;
   margin: 10px 20px;
   padding: 5px;
+  cursor: pointer;
 }
 
 .cursoimg {
