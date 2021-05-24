@@ -31,7 +31,7 @@ export default function Detalhe({info}) {
 }
 
 export async function getServerSideProps(context){
-  const res = await fetch(`/api/detalhe/${context.params.id}`) 
+  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/detalhe/${context.params.id}`) 
   const dados = await res.json()
 
 

@@ -35,7 +35,7 @@ export default function Home({list}) {
   )
 }
 export async function getServerSideProps(){
-  const res = await fetch("/api/detalhe/cake") 
+  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/detalhe/cake`) 
   const dados = await res.json()
 
 
