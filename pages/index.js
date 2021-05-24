@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import {list} from '../dados'
 
 
-export default function Home({list}) {
+export default function Home() {
   return (
     <div>
       <Head>
@@ -16,7 +17,7 @@ export default function Home({list}) {
       <div className={styles.curso} key={item.id}>
             <img  src={item.img} className={styles.cursoimg} />
             <div className={styles.cursoinfo}>
-                <h4 className={styles.cursoinfoh4}>Docker: Ferramenta essencial para Desenvolvedores</h4>
+                <h4 className={styles.cursoinfoh4}>Bolos deliciosos direto na sua casa</h4>
                 <p>{item.nome}</p>
             </div>
             <div className={styles.cursopreco}>
@@ -33,15 +34,4 @@ export default function Home({list}) {
 
        
   )
-}
-export async function getServerSideProps(){
-  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/detalhe/cake`) 
-  const dados = await res.json()
-
-
-  return {
-    props: {
-      list: dados
-    }
-  }
 }
