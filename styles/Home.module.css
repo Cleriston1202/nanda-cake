@@ -48,3 +48,17 @@
   font-weight: bold;
   font-size: 1.4em;
 }
+
+.card {
+  /* float: left; */
+  display: inline-block;
+  vertical-align: top;
+  font-family: Verdana, sans-serif;
+  border: solid 1px #CCC;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3);
+  height: 400px;
+  width: 400px;
+  margin: 10px 20px;
+  padding: 5px;
+
+}

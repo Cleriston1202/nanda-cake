@@ -14,8 +14,8 @@ export default function Home() {
       </Head>
  <h1>Nanda Cakes</h1>
       {list.map(item=>(
-         <Link href={`detalhe/${item.id}`} >
-      <div className={styles.curso} key={item.id}>
+         <Link href={`detalhe/${item.id}`} key={item.id} >
+      <div className={styles.curso}>
             <img  src={item.img} className={styles.cursoimg} />
             <div className={styles.cursoinfo}>
                 <h4 className={styles.cursoinfoh4}>Bolos deliciosos direto na sua casa</h4>
