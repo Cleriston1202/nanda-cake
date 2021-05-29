@@ -18,7 +18,8 @@ export default function Detalhe() {
         </Head>
 
         { info.map(i=>(
-        <div className={styles.card} key={i.id}>
+            <div className={styles.main} key={i.id}>
+        <div className={styles.card}>
             <img  src={i.img} className={styles.cursoimg} />
             <div className={styles.cursoinfo}>
                 <h4 className={styles.cursoinfoh4}>Bolos deliciosos direto na sua casa</h4>
@@ -30,6 +31,19 @@ export default function Detalhe() {
             
             </div>
         </div>
+         <div className={styles.cardLeft}>
+         <img  src={i.img} className={styles.cursoimg} />
+         <div className={styles.cursoinfo}>
+             <h4 className={styles.cursoinfoh4}>Bolos deliciosos direto na sua casa</h4>
+             <p>{i.nome}</p>
+         </div>
+         <div className={styles.cursopreco}>
+             <span className={styles.precode}>R$80,00</span>
+             <span className={styles.precopor}>R$50,00</span>
+         
+         </div>
+     </div>
+     </div>
           ))}
           
 
