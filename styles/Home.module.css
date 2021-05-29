@@ -1,5 +1,5 @@
 .container{
-  margin-left: 30px;
+  margin-left: 25px;
 }
 
 .curso {
@@ -50,9 +50,11 @@
 }
 .main{
   display: flex;
+  flex-wrap: wrap;
 }
 .card {
   /* float: left; */
+  
   display: inline-block;
   vertical-align: top;
   font-family: Verdana, sans-serif;
@@ -68,7 +70,7 @@
 .cardLeft {
   /* float: left; */
   flex: 2;
-  display: inline-block;
+  
   vertical-align: top;
   font-family: Verdana, sans-serif;
   padding: 10px;
