@@ -1,5 +1,5 @@
 .container{
-  margin: 5px;
+  margin: 22px;
 }
 
 .curso {
@@ -10,7 +10,7 @@
   border: solid 1px #CCC;
   box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3);
   height: 300px;
-  width: 300px;
+  width: 285px;
   margin: 10px 20px;
   padding: 5px;
   cursor: pointer;
